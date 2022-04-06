@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.rn-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.rn-card {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.rn-heading {
+  font-size: 26px;
+  color: #0b69ff;
+}
+.rn-description {
+  font-size: 18px;
+  color: #333333;
+}
+.rn-generate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.rn-number {
+  color: #0b69ff;
+  font-size: 26px;
+  font-weight: bold;
+}
